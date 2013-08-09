@@ -5,6 +5,19 @@ Cube World doesn't have a query interface.. so we're blazing ahead with a JSON o
 This works by transforming stats tracked through our monitoring scripts into the
 *de facto* json data structure defined by [cuwo](https://github.com/matpow2/cuwo).
 
+Example:
+
+```json
+{
+    "ip": "cw.gcg.io", 
+    "location": "US", 
+    "max": 144, 
+    "mode": "default", 
+    "name": "GC Gaming cw.gcg.io connects to best of 12 servers", 
+    "players": 72
+}
+```
+
 ## Getting started
 
 At the moment this is highly tailored to talk with http://status.gcg.io. But
