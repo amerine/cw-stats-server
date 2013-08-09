@@ -5,7 +5,7 @@ Cube World doesn't have a query interface.. so we're blazing ahead with a JSON o
 This works by transforming stats tracked through our monitoring scripts into the
 *de facto* json data structure defined by [cuwo](https://github.com/matpow2/cuwo).
 
-Example:
+## Example Response:
 
 ```json
 {
