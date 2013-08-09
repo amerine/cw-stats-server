@@ -50,10 +50,10 @@ See the Releases tab on GitHub.
 
 Just run it. It supports the following flags:
 
-`-http=<address>` The HTTP interface cw-stats will bind to.
-`-location="US"` The location of the servers we'll report.
-`-mode="default"` The game mode
-`-name="CW Server"` Name of Server
-`-poll=10s` How often we'll query the `-query` option below
-`-query="http://path/to/backend"` Backend query URL
-`-serverip="cw.gcg.io"` The Cube Wold public server address
+`-http=<address>` The HTTP interface cw-stats will bind to.  
+`-location="US"` The location of the servers we'll report.  
+`-mode="default"` The game mode.  
+`-name="CW Server"` Name of Server.  
+`-poll=10s` How often we'll query the `-query` option below.  
+`-query="http://path/to/backend"` Backend query URL.  
+`-serverip="cw.gcg.io"` The Cube Wold public server address.  
